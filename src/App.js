@@ -1,24 +1,21 @@
-import logo from './logo.svg';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import TodoForm from './router/TodoForm';
+import UpdateForm from './router/UpdateForm';
+import Navigation from './components/Navigation'
+import Main from './router/Main';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <BrowserRouter>
+   <Navigation/>
+   <Routes>
+      <Route path={"/"} element={<Main/>}/>
+      <Route path={"/insert"} element={<TodoForm/>}/>
+      <Route path={"/detail/:id"} element={<UpdateForm/>}/>
+   </Routes>
+   </BrowserRouter>
   );
 }
 
