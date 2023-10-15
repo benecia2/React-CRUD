@@ -3,11 +3,8 @@
 
 
 # 전체보기
-<p align="center">
-  <img src="https://github.com/benecia2/React-CRUD/assets/99549882/3fa632bd-c312-4a11-829f-8042a8e8f92a">
-</p>
+<img src="https://github.com/benecia2/React-CRUD/assets/99549882/3fa632bd-c312-4a11-829f-8042a8e8f92a">
+
 
 # 수정폼
-<p align="center">
-  <img src="https://github.com/benecia2/React-CRUD/assets/99549882/febcda3f-b520-4675-a4a7-60cc7954f06e">
-</p>
+<img src="https://github.com/benecia2/React-CRUD/assets/99549882/febcda3f-b520-4675-a4a7-60cc7954f06e">
